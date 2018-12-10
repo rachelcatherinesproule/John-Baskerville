@@ -1,0 +1,164 @@
+/* ------ CSS RESET ------ */
+
+* {
+   padding: 0;
+   margin: 0;
+   font-size:100%;
+   line-height: 1em;
+  }
+
+/* ----------- MAIN STYLING ----------- */
+
+body {
+    width: 90%;
+    max-width: 670px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.intro {font-size: 1.25em;
+        line-height: 1.35em;
+        margin-top: 3em
+}
+      
+.leader {
+    text-transform: uppercase;
+    color:#C06;
+    font-variant-numeric: oldstyle-nums; 
+}
+
+table {border: 0px solid black;border-collapse: collapse;padding: 100px;}
+
+/* ----------------- TYPOGRAPHY ---------------*/
+h1, h2, h3 {
+    font-weight: normal;
+    color: #c06;
+    text-align: center
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5
+}
+
+h1 {
+    font-size: 3.998em;
+    margin-top: 1em;
+    margin-bottom: 0.1em
+}
+
+h2 {font-size: 2.678em;
+    margin: 1em 0}
+
+h3 {font-size: 1.999em}
+
+blockquote {
+    hanging-punctuation: first;
+    text-indent: -0.5em
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 2.35em;
+    line-height: 1.5;
+    margin-top: 0.1em;
+    color: #333
+}
+
+caption {font-size: 1.5em; color:#c06}
+
+/* --------- STYLING LINKS ------------ */
+
+a {
+    color: #c06;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: #006341;
+    border-bottom: 1px dotted;
+}
+
+/*------------- NAVIGATION ---------------- */
+
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(204, 0, 102, 0.8);
+    padding: 1em 0;
+    font-size: 0.75em
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px
+}
+
+
+nav a:link {color: #fff}
+
+nav a:visited {color: #fff}
+
+nav a:hover {border-bottom: none;
+color: #000}
+
+/* ----------------- BLOCKQUOTE ----------------------- */
+
+blockquote {
+    padding: 1em 0 4em 0;
+    font-size: 1.75em;
+    line-height: 1.3;
+    color: #777
+}
+
+blockquote cite {
+    font-size: 0.75em
+}
+
+
+/* ----------------- IMAGES ---------------*/
+
+img {
+    display: block;
+    margin: 4em auto;
+    padding: 0;
+    max-width: 100%
+}
+
+/* ---------------- FOOTER ------------------*/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0 4em 0
+}
+
+hr {
+    margin: 1em 0;
+    height: 1px;
+    background-color: #c06;
+    color: #c06;
+    border: 0 none
+}
+
+connections { position:relative; margin: 0 auto; margin: 20px, 0;}
+
+connections ul {margin: 0 15px; padding: 0; list-style: none; display: inline-block;}
+
+.connections img{ opacity: 0.5; border: none;}
+
+
+
+
