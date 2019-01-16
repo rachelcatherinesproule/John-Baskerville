@@ -1,0 +1,201 @@
+/* ------ CSS RESET ------ */
+
+* {
+   padding: 0;
+   margin: 0;
+   font-size:105%;
+   line-height: 1em;
+  }
+
+
+/* JOHN BASKERVILLE CSS STYLING */
+
+body {
+    font-family: baskerville-urw, serif;
+    margin: auto;
+    color: #333;
+    }
+
+/* Layout */
+
+section, header{
+    width: 75%;
+    max-width: 700px;
+    padding-top: 2em;
+    margin: 20px auto;}
+
+.dark {color: #fafafa;
+background: #333;
+padding: 2em 0}
+
+header {margin-bottom: 4em}
+
+hr {
+    margin: 50px 0;
+    height: 1px;    
+    background-color:#c06;
+    color:#c06;
+    border: 0 none;
+        }
+
+
+
+
+/*----------------- TYPOGRAPHY ---------------*/
+    
+h1, h2{
+    font-weight: normal;
+    text-align: center;
+    color: #c00}
+
+p, li {
+    line-height: 1.4em;
+    margin-bottom: 1em;}
+        
+h1 {font-size: 2.5em;
+    margin-bottom: .1em;}
+
+h2 {font-size: 2.25em;
+    margin-bottom: 1em;}
+
+
+h3 {font-size: 1.5em;
+    margin: 1em 0}
+
+header h1 {margin-top: 1em}
+
+header h2 {
+    margin-top: ;
+    font-style: italic;
+    font-size: 1.8em;}
+
+/* ----------------- BLOCKQUOTE ----------------------- */
+
+blockquote {
+    padding: 1em 0 2em 0;
+    font-size: 1.75em;
+    line-height: 1.3;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+    color: #777
+}
+
+blockquote cite {
+    font-size: 0.75em
+}
+
+
+.intro {font-size: 1.5em;
+        line-height: 1.35em;
+        margin-top: 3em
+}
+      
+.leader {
+    font-family: mrs-eaves, serif; /*--- A little bit of a cheat here. As this version of Baskerville doesn’t have old style numerals I have substituted Mrs Eaves ---*/
+   text-transform: uppercase;
+    color:crimson;
+    font-variant-numeric: oldstyle-nums; 
+}
+
+
+/*----------------- LINKS--------------------*/
+
+a {color: #c00;
+text-decoration: none}
+a:hover  {
+    color: #000;
+    border-bottom: 1px dotted;
+}
+/*----------------- SPECIFIC TYPOGRAPHIC STYLING ------------------*/
+
+
+
+/*-------------------- PUNCTUATION ----------------*/
+
+.punctuation h1 {margin: 1em 0}
+
+/*-------------------- HYPHENS --------------------*/
+
+.hyphen h3 {margin: 2em 0 .5em 0}
+
+/*-------------------- LIGATURES -----------------*/
+
+
+.lig h1 {
+    font-size: 4em;
+    color: #333;
+    margin: 1em;}
+
+.ligatures {
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "dlig";
+  -webkit-font-feature-settings: "dlig";
+  font-feature-settings: "dlig";}
+
+.discretionary {
+    font-family: warnock-pro, serif;
+    ; /*remove to show difference*/
+    
+
+    font-variant-ligatures: discretionary-ligatures;
+    font-feature-settings: "dlig";
+    font-size: 5em; }
+
+.sentence {
+    width: 80%; }
+
+
+
+/*-------------------- NUMERALS ------------------*/
+
+.numerals h1 {
+    font-family: bookmania, serif;
+    margin-bottom: 1em;
+    font-size: 5em; 
+    color: #fafafa;
+}
+
+.normal { font-variant-numeric: proportional-nums;}
+
+.lining {
+    font-variant-numeric: tabular-nums;
+    font-variant-numeric: lining-nums;
+}
+
+.oldstyle {
+    font-variant-numeric: oldstyle-nums; }
+    
+.swsh h1{
+    font-family: bookmania, serif;
+ font-feature-settings: "swsh";
+    color: #fafafa;
+    line-height: 1.3}
+    
+/*------------------- AND FINALLY -------------------*/
+   
+.andfinally {
+    font-family: baskerville-urw, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2em
+}
+
+.andfinally h1 {
+    font-size: 4.5em;
+    margin-top: 1em;
+    margin-bottom: -0.1em
+}
+
+.andfinally h2 {font-size: 2.2em;
+    font-style: italic;
+    color: #666;
+    margin-top: .1em} 
+
+.andfinally p {line-height: 1.4}
+
+.dropcap {
+   color: #c00;
+}
+   
+    
+    
